@@ -1,0 +1,130 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+main{
+    /* border: 2px solid hotpink; */
+    height: 700px;
+    width: 100%;
+    background-color: #454647 ;
+    opacity: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: scroll; */
+    background-position: top;
+    background-image: url(./assets/6da6dfe9adcee0de10efcad20d5b33d7.svg);
+}
+nav{
+    /* border: 2px solid red; */
+    background-color: #343333;
+    color: #ebebeb;
+    height: 75px;
+    width: 100%;
+    display: flex;
+
+}
+.n1{
+    /* border: 2px solid white; */
+    height: 80px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    
+}
+.n11{
+    /* border: 2px solid white; */
+    height: 80px;
+    width: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.n1 img{
+    height: 35px;
+    width: 20%;
+}
+.n11 ol{
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    font-size: 20px;
+}
+.n11 svg{
+    color: #2ecc71;
+}
+#s1{
+    /* border: 2px solid white; */
+    height: 500px;
+    width: 100%;
+}
+#s1 h1{
+    font-size: 48px;
+    color: #ebebeb;
+    font-weight: 400;
+    letter-spacing: .41px;
+    /* font-family: "Ubuntu", sans-serif; */
+    margin-left: 20%;
+}
+#s1 h2{
+    font-size: 24px;
+    color: #ebebeb;
+    font-weight: 300;
+    letter-spacing: .2px;
+    margin-left: 20%;
+}
+#s1 input{
+    height: 48px;
+    width: 61%;
+    border-radius: 4.5px;
+    color: #454647;
+    font-size: 18px;
+    margin-left: 20%;
+    border: none;
+}
+#col{
+    border: 2px;
+    height: 50px;
+    width: 100%;
+    background: #d9643a;
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, .1);
+    /* padding: 8px 232px 8px 32px; */
+    z-index: 1;
+    font-weight: 300;
+}
+footer{
+    /* border: 2px solid white; */
+    background: #242525;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.fot{
+    /* border: 2px solid magenta; */
+    height: 300px;
+    width: 25%;
+    color: #ebebeb;
+    line-height: 1.9;
+}
+.fot img{
+    height: 80px;
+    width: 60%;
+}
+.fot font{
+    /* background-color: #454647; */
+    color: #5c5d5e;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.fot p{
+    color: #ebebeb;
+    font-weight: 300;
+}
+img,svg,li,p,u,span:hover{
+    cursor: pointer;
+}
