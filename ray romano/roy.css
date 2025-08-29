@@ -1,0 +1,448 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+main{
+    /* border: 2px solid forestgreen; */
+    height: 800px;
+    width: 100%;
+    background-attachment: fixed;
+    background-image: url(./Assests/Ray+Romano1.jpg);
+    background-size: cover;
+    background-position: center;
+
+    
+}
+ main img{
+    height: inherit;
+    width: inherit;
+} 
+#n1{ 
+    /* border: 2px solid darkblue; */
+    background-color: white ;
+    height: 140px;
+    width: 100%;
+    display: flex;
+    /* position: fixed; */
+}
+.na1{
+    /* border: 2px solid darkgoldenrod; */
+    height: 140px;
+    width: 20%;
+    z-index: 8002;
+    text-align: center;
+    
+}
+.na1 img{
+     height: auto;
+     width: 100px;
+}
+.na2{
+     /* border: 2px solid darkgoldenrod;  */
+     height: 138px;
+     width: 75%;
+     text-align: center;
+     display: flex;
+     justify-content: end;
+    align-items: center;
+}
+.na2 ol{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    /* align-items: end; */
+    gap: 2.3rem;
+    /* font-size: .85em; */
+    color: #363636;
+    font-family: proxima-nova;
+    font-style: normal;
+    font-weight: 600;
+    z-index: 8002;
+    letter-spacing: 3.5px;
+    font-size: 11px;
+
+}
+#s1{
+    /* border: 2px solid firebrick; */
+    height: 400px;
+    width: 80%;
+     
+}
+.fd{
+    /* border: 2px solid darkgreen; */
+    height: 80px;
+    width: 55%;
+    background-color: rgba(255, 255, 255, .6);
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fd h1{
+    letter-spacing: 0.179487em;
+    color: #171717;
+    font-family: futura-pt;
+    font-size: 2.8em;
+    font-weight: 400;
+    line-height: 1em;
+    z-index: inherit;
+     
+}
+.fd1{
+    /* border: 2px solid darkgreen; */
+    height: 90px;
+    width: 74%;
+    margin-left: 5%;
+    background-color: rgba(255, 255, 255, .83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fd1 p{
+    color: #171717;
+    font-family: proxima-nova;
+    font-size: 1.2em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.6em;
+    
+}
+#para{
+    /* border: 2px solid darkblue; */
+    height: 350px;
+    width: 100%;
+    
+}
+#para h1{
+    color: #16161d;
+    font-family: proxima-nova;
+    font-size: 2em;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.2em;
+    margin-left: 20%;
+}
+#para p{
+    color: #363636;
+    /* background-color: #171717; */
+    /* font-family: "PT Serif", Georgia, serif; */
+    font-family: proxima-nova;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6em;
+    font-size: 15px;
+    margin-left: 20%;
+}
+#s2{
+    /* border: 2px solid blueviolet; */
+    height: 700px;
+    width: 100%;
+    background-attachment: fixed;
+    background-image: url(./Assests/img2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#hi{
+    /* border: 2px solid firebrick; */
+    height: 100px;
+    width: 60%;
+    margin-left: 6%;
+    background-color: rgba(255, 255, 255, .6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hi h1{
+    color: #171717;
+    font-family: futura-pt;
+    font-size: 2.5em;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    line-height: 1em;
+    margin-left: 3%;
+
+}
+#p1{
+    /* border: 2px solid violet; */
+    height: 420px;
+    width: 100%;
+}
+#p1 h2{
+    font-family: proxima-nova;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.7px;
+    line-height: 1.2em;
+    margin-left: 20%;
+}
+#p1 p{
+    color: #363636;
+    /* background-color: #171717; */
+    /* font-family: "PT Serif", Georgia, serif; */
+    font-family: proxima-nova;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6em;
+    font-size: 15px;
+    margin-left: 20%;
+}
+#s3{
+    /* border: 2px solid blueviolet; */
+    height: 700px;
+    width: 100%;
+    background-attachment: fixed;
+    background-image: url(./Assests/imag3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#ser{
+    height: 80px;
+    width: 20%;
+    margin-left: 6%;
+    background-color: rgba(255, 255, 255, .6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ser h1{
+    letter-spacing: 0.179487em;
+    color: #171717;
+    font-family: futura-pt;
+    font-size: 2.8em;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1em;
+    text-decoration: none;   
+}
+#sc{
+    /* border: 2px solid violet; */
+    height: 400px;
+    width: 100%;
+}
+#sc h2{
+    color: #16161d;
+    font-family: proxima-nova;
+    font-size: 1.4em;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-decoration: none;
+    line-height: 1.2em;
+    margin-left: 20%;
+}
+#sc p{
+    color: #363636;
+    /* background-color: #171717; */
+    /* font-family: "PT Serif", Georgia, serif; */
+    font-family: proxima-nova;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6em;
+    font-size: 15px;
+    margin-left: 20%;
+}
+#s4{
+    /* border: 2px solid blueviolet; */
+    height: 700px;
+    width: 100%;
+    background-attachment: fixed;
+    background-image: url(./Assests/image4.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#test{
+    height: 80px;
+    width: 26%;
+    margin-left: 6%;
+    background-color: rgba(255, 255, 255, .6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#test h1{
+    letter-spacing: 0.179487em;
+    color: #171717;
+    font-family: futura-pt;
+    font-size: 2.3em;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1em;  
+}
+#bye{
+    /* border: 2px solid violet; */
+    height: 500px;
+    width: 100%;
+}
+#bye h2{
+    color: #16161d;
+    font-family: proxima-nova;
+    font-size: 1.4em;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-decoration: none;
+    line-height: 1.2em;
+    margin-left: 20%;
+}
+#bye p{
+    color: #363636;
+    /* background-color: #171717; */
+    /* font-family: "PT Serif", Georgia, serif; */
+    font-family: proxima-nova;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.6em;
+    font-size: 15px;
+    margin-left: 20%;
+}
+#s5{
+    /* border: 2px solid blueviolet; */
+    height: 700px;
+    width: 100%;
+    background-attachment: fixed;
+    background-image: url(./Assests/image5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#gal{
+    height: 80px;
+    width: 16%;
+    margin-left: 6%;
+    background-color: rgba(255, 255, 255, .6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#gal h1{
+    letter-spacing: 0.179487em;
+    color: #171717;
+    font-family: futura-pt;
+    font-size: 2.3em;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    line-height: 1em;  
+}
+#end{
+    /* border: 2px solid darkmagenta; */
+    height: 500px;
+    width: 100%;
+}
+#ed{
+    /* border: 2px solid darkblue; */
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pic{
+    /* border: 2px solid brown; */
+    height: 250px;
+    width: 26%;
+    text-align: center;
+}
+.pic img{
+    height: 200px;
+    width: 80%;
+}
+.pic figcaption{
+    font-size: 12px;
+    line-height: 1.68em;
+    color: #363636;
+    /* background-color: #171717; */
+    /* font-family: "PT Serif", Georgia, serif; */
+    font-family: proxima-nova;
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 68%;
+}
+#don{
+    /* border: 2px solid brown; */
+    height: 250px;
+    width: 26%;
+    text-align: center;
+    margin-left: 11.1%;
+}
+#don img{
+    height: 200px;
+    width: 80%;
+}
+#don figcaption{
+    font-size: 12px;
+    line-height: 1.68em;
+    color: #363636;
+    /* background-color: #171717; */
+    /* font-family: "PT Serif", Georgia, serif; */
+    font-family: proxima-nova;
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 74%;
+}
+#foot{
+    background-color: white;
+    /* border: 2px solid darkblue; */
+    height: 200px;
+    width: 100%;
+
+}
+#foot footer{
+    background-color: #171717;
+    /* border: 2px solid darkgoldenrod; */
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icon{
+    /* border: 2px solid white; */
+    height: 50px;
+    width: 25%;
+
+}
+#parr{
+    /* border: 2px solid white; */
+    height: 50px;
+    width: 50%;
+    
+}
+#parr p{
+    color: white;
+    font-family: proxima-nova;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 1.6em;
+    margin-top: 1%;
+}
+img:hover{
+    cursor: pointer;
+}
+li:hover{
+    cursor: pointer;
+}
+*{
+    scroll-behavior: smooth;
+}
+ button{
+    border: #363636;
+    border-radius: 60%;
+    height: 40px;
+    width: 5%;
+    margin-top: -15%;
+    margin-left: 50%;
+}
+
+
+
+
